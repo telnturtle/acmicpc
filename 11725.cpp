@@ -43,7 +43,8 @@ int main() {
 
     int node;
 
-    while ((node = q.front())) {
+    while (q.front()) {
+        node = q.front();
         q.pop();
         visited.insert(node);
 
